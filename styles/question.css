@@ -1,0 +1,123 @@
+body {
+    font-family:auto;
+  }
+  table {
+    font-family: auto;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  .theader{
+    background-color:#2170AC;;
+    color: #fff;
+  }
+  .question{
+    font-weight: bold;
+  }
+
+  .sr_no{
+    width: 55px;
+    font-weight: bold;
+  }
+  .sr{
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .qlist{
+    font-size: 21px;
+    padding: 12px;
+    font-weight: bold;
+    color: black;
+  }
+  .option{
+    width: 200px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  .btn-div{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+  }
+
+  .btn{
+    width:85px;
+    background-color: #2170AC;
+    color: #fff;
+    border-radius: 5px;
+    border: 2px solid #fff;
+    margin-bottom: 50px;
+    padding: 10px;
+    font-weight:bold;
+  }
+
+  .btn-div .btn:hover{
+    background-color:#fff;
+    color: #2170AC;
+    cursor: pointer;
+    border: 2px solid #2170AC;
+    font-weight:bold;
+  
+  }
+  .desktop {
+    text-align: end;
+  }
+  
+ 
+
+  @media only screen and (max-width: 600px) {
+	
+    .container .box-container {
+      padding: 12px;
+      border: 0px solid grey;
+      margin: 8% 0 0 0;
+      /* border-top-left-radius: 60px; */
+      /* border-bottom-right-radius: 60px; */
+    }
+    .col-md-6{
+      text-align:start;
+      padding: 4px;
+      
+    }
+    .desktop{
+      text-align: start;
+    }
+    .intro-proceed {
+      font-size: 15px;
+   }
+   .qlist{
+    font-size:6px;
+}
+
+  }
+    /* this is write css for mobile */
+  @media only screen and (max-width: 480px)
+  {
+   
+    .qlist{
+        font-size: 15px;
+    }
+    .mob{
+      font-size: 17px;
+      margin-bottom: 30px;
+      line-height: 30px;
+  }
+.desktop{
+  text-align: start;
+}
+  
+      
+  }
+
+  
